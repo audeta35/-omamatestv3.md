@@ -1,4 +1,4 @@
-package questnumzero
+package main
 
 import (
 	"fmt"
@@ -6,11 +6,11 @@ import (
 )
 
 // testing for main function answer0.go
-func TestQuestNumZero(t *testing.T) {
+func TestMain(t *testing.T) {
 
 	if number1 == 1 && number2 == 10 {
 		// unit test 1
-		questNumZero()
+		main()
 		if totalPalindrome == 9 {
 			fmt.Println("unit test 1 with result :", totalPalindrome)
 		} else {
@@ -21,7 +21,7 @@ func TestQuestNumZero(t *testing.T) {
 
 	if number1 == 99 && number2 == 100 {
 		// unit test 2
-		questNumZero()
+		main()
 		if totalPalindrome == 1 {
 			fmt.Println("unit test 2 with result :", totalPalindrome)
 		} else {
@@ -32,7 +32,7 @@ func TestQuestNumZero(t *testing.T) {
 
 	if number1 == 21 && number2 == 31 {
 		// unit test 3
-		questNumZero()
+		main()
 		if totalPalindrome == 1 {
 			fmt.Println("unit test 3 with result :", totalPalindrome)
 		} else {
