@@ -1,4 +1,4 @@
-package main
+package questnumzero
 
 import "fmt"
 
@@ -9,7 +9,7 @@ var number2 = 31
 // set variable total palindrome
 var totalPalindrome int
 
-func main() {
+func questNumZero() {
 
 	// set input value for number1
 	fmt.Print("input number1: \n")
